@@ -373,7 +373,7 @@ body {
 }
 
 .main-header {
-  background: #fff;
+  background: #f6f2e2;
   box-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
   padding: 0;
 }
@@ -385,16 +385,11 @@ body {
   padding: 18px 40px;
 }
 
-.logo-main {
-  font-size: 2rem;
-  font-weight: 800;
-  color: #194d32;
-  letter-spacing: 1px;
+.logo-main img {
+  width: 60px;
+  height: auto;
 }
 
-.logo-main span {
-  color: #ffe066;
-}
 
 .nav-links {
   list-style: none;
@@ -413,14 +408,14 @@ body {
 }
 
 .nav-links a:hover {
-  color: #ffe066;
+  color: #9db57b;
 }
 
 .nav-links a.active,
 .nav-links li.active > a {
-  color: #ffe066 !important;
+  color: #9db57b !important;
   font-weight: 900;
-  border-bottom: 2px solid #ffe066;
+  border-bottom: 2px solid #9db57b;
 }
 
 .header-btn {
@@ -435,7 +430,7 @@ body {
 }
 
 .header-btn:hover {
-  background: #ffe066;
+  background: #9db57b;
   color: #194d32;
 }
 
@@ -455,9 +450,9 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: bolder;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 18px;
   padding: 12px;
 }
@@ -1084,7 +1079,9 @@ footer span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: url('pictures/sheets-3560567_1280.jpg');
+  background: url('pictures/pexels-timmossholder-974314.jpg');
+  background-size: cover;
+  background-position: center;
   color: #fff;
   padding: 60px 40px 40px 40px;
   gap: 40px;
@@ -1407,9 +1404,7 @@ footer span {
 .cultura-bref-img-small {
   position: absolute;
   left: 20px;
-  /* Ajuste la valeur pour placer le rond à l'intérieur du grand cercle */
   bottom: 20px;
-  /* Ajuste la valeur pour placer le rond à l'intérieur du grand cercle */
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -1438,10 +1433,14 @@ footer span {
 }
 
 .cultura-bref-content h2 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   color: #232323;
-  margin-bottom: 10px;
+  margin-bottom: 23px;
+}
+
+.cultura-bref-content h2 span {
+ color: #4caf50;
 }
 
 .cultura-bref-content p {
