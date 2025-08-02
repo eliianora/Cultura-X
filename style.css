@@ -1315,9 +1315,10 @@ footer span {
 }
 
 .cultura-impact-img {
-  width: 320px;
+  width: 400px;
+  height: 450px;
   max-width: 90vw;
-  border-radius: 18px;
+  border-radius: 8px;
   box-shadow: 0 2px 12px rgba(44, 62, 80, 0.10);
 }
 
