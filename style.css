@@ -1206,6 +1206,21 @@ footer h2 {
   align-items: center;
 }
 
+.cultura-step .wave, .cultura-step .om {
+  object-fit: cover;
+  margin-bottom: 18px;
+}
+
+.cultura-step .wave {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+}
+.cultura-step .om{
+  width: 104px;
+  height: auto;
+}
+
 .cultura-step-icon {
   width: 54px;
   height: 54px;
@@ -1594,7 +1609,7 @@ footer h2 {
 
   .nav-links a {
     display: block;
-    padding: 14px 28px;
+    padding: 14px 20px;
     font-size: 1.08rem;
     border-bottom: 1px solid #f7f7f7;
     color: #194d32;
@@ -1607,6 +1622,14 @@ footer h2 {
     color: #194d32 !important;
     font-weight: 900;
     border-bottom: 2px solid #ffe066;
+  }
+
+  .btn-soutien {
+    margin-left: 15px;
+    margin-right: 75px;
+    text-align: center;
+    display: none;
+    background-color: transparent;
   }
 
   .nav-toggle {
@@ -1674,4 +1697,58 @@ color: #fff;}
 .logo_items img{
   height: 100px;
   margin-left: 5px;
+}
+
+.btn-soutien{
+  background: #ffe066;
+  border-radius: 100px;
+  padding: 8px 20px;
+}
+
+.btn-soutien:hover {
+  background: #ed3838;
+}
+
+.hero-soutien{
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-soutien video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place video behind overlay */
+}
+
+.video-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding-left: 50px;
+    flex-direction: column;
+    background-color: #2be0982e;
+}
+
+.projets-title{
+    font-family: 'Monda', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #194d32;
+}
+
+.projets-subtitle {
+    font-size: 1.1em;
+    color: #194d32;
+    line-height: 1.5;
+    margin-top: 10px;
 }
